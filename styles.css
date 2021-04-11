@@ -44,29 +44,49 @@ header {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+	height: 25vh;
 }
 
 nav {
   display: flex;
   align-items: flex-end;
-	padding-bottom: 20px;
+	padding-bottom: 42px;
+	padding-left: 20px;
 }
 
 button {
 	background: none;
 	border: none;
 	display: flex;
+	/* font-size: 1.2em; */
+}
+
+nav > button {
+	font-size: 1.2em;
+	margin-right: 20px;
+}
+
+button > 	p {
+	padding-top: 7px;
+	font-size: 1em;
+}
+
+img {
+	width: 30px;
+	padding-right: 15px;
 }
 
 h1 {
-	font: 1.2em "Gill Sans", sans-serif;
+	font: 2.5em "Gill Sans", sans-serif;
 	color: #f2f7f2ff;
 	font-weight: lighter;
+	margin-right: 35px;
 }
 
 h2{
-	font: 1.8em "Gill Sans", sans-serif;
+	font: 2.3em "Gill Sans", sans-serif;
 	color: #31231eff;
+	margin: 12px 0px 30px 5px;
 }
 
 span {
@@ -74,12 +94,18 @@ span {
 	font-size: 3em;
 }
 
+main {
+	padding: 20px;
+}
+
+
 article {
 	display: flex;
 	flex-direction: column;
 	background-color: #31231eff;
-	width: 20vw;
-	height: 50vh;
+	width: 21vw;
+	/* height: 50vh; */
+	margin-right: 10px;
 	margin-bottom: 10px;
 	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.4);
 }
@@ -87,8 +113,13 @@ article {
 /* HEADER */
 .user-login-container {
 	display: flex;
+	justify-content: flex-end;
 	margin-top: 20px;
 }
+
+/* .user-login-container > button {
+	font-size: 1.2em;
+} */
 
 .heart-btn img:nth-child(2) {
   display: none;
@@ -105,6 +136,12 @@ button:hover {
 }
 
 /* ARTICLE TOP */
+.article-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90vw;
+}
+
 .article-top {
 	display: flex;
 	justify-content: space-between;
@@ -119,7 +156,7 @@ button:hover {
 .article-bottom {
 	display: flex;
 	flex-direction: column;
-	height: 50vh;
+	height: 35vh;
 	font: 1.2em "Gill Sans", sans-serif;
 	padding: 10px;
 	/* margin-bottom: 20px; */
@@ -156,24 +193,38 @@ button:hover {
 @media screen and (max-width: 800px){
 
 h1 {
+	font-size: 1.2em;
 	margin-right: 13px;
 }
 
 h2{
-	margin: 10px 0px 5px 10px;
+	font-size: 1.2em;
+	margin: 12px 0px 7px 19px;
+}
+
+header {
+	height: 15vh;
 }
 
 img {
 	width: 20px;
+	padding-right: 0px;
+}
+
+nav {
+	padding-left: 2px;
+	padding-bottom: 20px;
 }
 
 nav > button{
 	font-size: .7em;
 	width: 18vw;
+	margin-right: 0px;
 }
 
 button > 	p {
 	padding-top: 5px;
+	font-size: 1em;
 }
 
 button:nth-child(1) {
@@ -184,16 +235,27 @@ button:nth-child(2){
 	margin-right: 10px;
 }
 
+main {
+	padding: 10px;
+}
+
+/* .user-login-container > button {
+	font-size: .7em;
+} */
+
 /* MAIN */
 
 .article-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	/* margin-right: */
+	width: 95vw;
 }
 
 
 article {
+	margin-right: 0;
 	height: 70vh;
 	width: 80vw;
 }
@@ -201,6 +263,10 @@ article {
 .article-top {
 	background-size: 80vw 28vh;
 	height: 28vh;
+}
+
+.article-bottom {
+	height: 25vh;
 }
 
 .txt-2 {
