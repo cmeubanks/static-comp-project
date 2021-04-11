@@ -18,7 +18,7 @@ Github Pages Link: https://cmeubanks.github.io/static-comp-project/
 ## Images
 
 Desktop View:
-![](assets/desktop-view.png)
+<img src="assets/desktop-view.png" width="300" >
 
 
 Mobile View:
