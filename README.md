@@ -24,7 +24,7 @@ Desktop View:
 
 Mobile View:
 
-<img src="assets/mobile-view.png" width="650" >
+<img src="assets/mobile-view.png" height="350" >
 
 Comp style to match:
 
