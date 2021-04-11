@@ -27,6 +27,7 @@ $bistre: #31231eff;
 $smoky-black: #0c0908ff;
 $artichoke: #7e846bff;
 $pale-spring-bud: #f2ecbaff;
+$dark-lava: #4b3930ff;
 */
 
 /* HTML ELEMENT TAGS */
@@ -36,7 +37,7 @@ html {
 
 body {
   background-color: #fce2d9ff;
-	color: #f2f7f2ff;
+	color: #4b3930ff;;
 }
 
 header {
@@ -44,13 +45,14 @@ header {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-	height: 25vh;
+	/* height: 20vh; */
+	height: 157px;
 }
 
 nav {
   display: flex;
   align-items: flex-end;
-	padding-bottom: 42px;
+	padding-bottom: 15px;
 	padding-left: 20px;
 }
 
@@ -72,12 +74,13 @@ button > 	p {
 }
 
 img {
+	height: 30px;
 	width: 30px;
 	padding-right: 15px;
 }
 
 h1 {
-	font: 2.5em "Gill Sans", sans-serif;
+	font: 2.0em "Gill Sans", sans-serif;
 	color: #f2f7f2ff;
 	font-weight: lighter;
 	margin-right: 35px;
@@ -95,17 +98,17 @@ span {
 }
 
 main {
-	padding: 20px;
+	padding: 25px;
 }
 
 
 article {
 	display: flex;
 	flex-direction: column;
-	background-color: #31231eff;
-	width: 21vw;
-	/* height: 50vh; */
-	margin-right: 10px;
+	background-color: #f2f7f2ff;
+	width: 22vw;
+	height: 55vh;
+	margin-right: 18px;
 	margin-bottom: 10px;
 	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.4);
 }
@@ -139,7 +142,8 @@ button:hover {
 .article-container {
 	display: flex;
 	flex-wrap: wrap;
-	width: 90vw;
+	width: 95vw;
+	/* margin-right: 0; */
 }
 
 .article-top {
@@ -148,7 +152,7 @@ button:hover {
 	background-repeat: no-repeat;
 	font: 1.2em "Gill Sans", sans-serif;
 	color: #31231eff;
-	background-size: 100vw 50vh;
+	background-size: 23vw 28vh;
 	height: 25vh;
 }
 
@@ -156,7 +160,7 @@ button:hover {
 .article-bottom {
 	display: flex;
 	flex-direction: column;
-	height: 35vh;
+	/* height: 38vh; */
 	font: 1.2em "Gill Sans", sans-serif;
 	padding: 10px;
 	/* margin-bottom: 20px; */
@@ -174,11 +178,11 @@ button:hover {
 	padding-top: 5px;
 	margin-bottom: 5px;
 	width: auto;
-	height: 40px;
+	height: 53px;
 }
 
 .txt-1 {
-	color: #f2f7f2ff
+	color: #4b3930ff;
 }
 
 .txt-2 {
@@ -186,7 +190,12 @@ button:hover {
 }
 
 .num {
-	font-size: 2em;
+	font-size: 30px;;
+}
+
+.like-heart {
+	height: 60px;
+	width: 60px;
 }
 
 /* MOBILE VIEW */
@@ -203,11 +212,12 @@ h2{
 }
 
 header {
-	height: 15vh;
+	height: 116px;
 }
 
 img {
 	width: 20px;
+	height: 20px;
 	padding-right: 0px;
 }
 
@@ -250,7 +260,7 @@ main {
 	flex-direction: column;
 	align-items: center;
 	/* margin-right: */
-	width: 95vw;
+	width: 90vw;
 }
 
 
@@ -266,7 +276,7 @@ article {
 }
 
 .article-bottom {
-	height: 25vh;
+	/* height: 25vh; */
 }
 
 .txt-2 {
@@ -289,5 +299,9 @@ article {
 
 .like-heart {
 	width: 80%;
+}
+
+.num {
+	font-size: 2em;
 }
 }
