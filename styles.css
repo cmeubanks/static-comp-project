@@ -105,6 +105,8 @@ button:hover {
 
 /* ARTICLE TOP */
 .article-top {
+	display: flex;
+	justify-content: space-between;
 	background-repeat: no-repeat;
 	background-size: 100vw 50vh;
 	height: 25vh;
@@ -157,7 +159,7 @@ article {
 }
 
 .article-top {
-	background-size: 100vw 50vh;
-	height: 25vh;
+	background-size: 80vw 28vh;
+	height: 28vh;
 }
 }
