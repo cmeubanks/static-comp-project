@@ -1,7 +1,7 @@
 pans = [
   { image: './assets/green-pans.jpg',
     like: 05,
-    name: 'Green Pan',
+    name: 'Green Pan Fam',
     date: Date.now(),
     website: "https://www.target.com/c/pots-pans-cookware-kitchen-dining/sale/-/N-yqpatZ5tdv0",
     handle: '@pan-damonium',
@@ -17,32 +17,64 @@ pans = [
     photo: 22,
   },
 
-  { image: './assets/green-pans.jpg',
-    like: 05,
-    name: 'Green Pan',
+  { image: './assets/blue-pan.jpg',
+    like: 13,
+    name: 'Blue Pan',
     date: Date.now(),
-    website: "https://www.target.com/c/pots-pans-cookware-kitchen-dining/sale/-/N-yqpatZ5tdv0",
-    handle: 'one-green-pan',
-    photo: 15,
+    website: "https://www.amazon.com/cookware/b?ie=UTF8&node=289814",
+    handle: '@i_am_pan',
+    photo: 18,
   },
-]
 
+  { image: './assets/yellow-pans.jpg',
+    like: 33,
+    name: 'Yellow Pan Fam',
+    date: Date.now(),
+    website: "https://www.lecreuset.com/",
+    handle: '@fancy-pans',
+    photo: 16,
+  },
 
+  { image: './assets/purple-pan.jpg',
+    like: 09,
+    name: 'Purple Pan',
+    date: Date.now(),
+    website: "https://www.lecreuset.com/explore-colors.html",
+    handle: '@pan-doras_box',
+    photo: 31,
+  },
 
+  { image: './assets/pink-pans.jpg',
+    like: 41,
+    name: 'Pink Pan Fam',
+    date: Date.now(),
+    website: "https://www.macys.com/shop/kitchen/cookware/Color_normal/Pink?id=7552",
+    handle: '@omg-pans',
+    photo: 23,
+  },
 
+  { image: './assets/blue-pans.jpg',
+    like: 02,
+    name: 'Blue Pan',
+    date: Date.now(),
+    website: "https://www.etsy.com/market/blue_enamel_cookware",
+    handle: '@pannnn',
+    photo: 01,
+  },
 
-
-
-
+  { image: './assets/black-pans.jpg',
+    like: 27,
+    name: 'Black Pans',
+    date: Date.now(),
+    website: "https://www.surlatable.com/bk-black-steel-skillets/PRO-5283494.html",
+    handle: '@classic_pan',
+    photo: 14,
+  },
+];
 
 const container = document.querySelector('.article-container');
 
-
-window.addEventListener('load', loadArticles)
-
-
-
-
+window.addEventListener('load', loadArticles);
 
 function loadArticles() {
 pans.forEach(pan => {
@@ -75,4 +107,4 @@ container.innerHTML += `
   </article>
   `
   })
-}
+};
