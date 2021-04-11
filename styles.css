@@ -66,7 +66,8 @@ nav > button {
 }
 
 button > 	p {
-	padding-top: 7px
+	padding-top: 7px;
+	font-size: 1em;
 }
 
 img {
@@ -78,6 +79,7 @@ h1 {
 	font: 2.5em "Gill Sans", sans-serif;
 	color: #f2f7f2ff;
 	font-weight: lighter;
+	margin-right: 35px;
 }
 
 h2{
@@ -103,8 +105,13 @@ article {
 /* HEADER */
 .user-login-container {
 	display: flex;
+	justify-content: flex-end;
 	margin-top: 20px;
 }
+
+/* .user-login-container > button {
+	font-size: 1.2em;
+} */
 
 .heart-btn img:nth-child(2) {
   display: none;
@@ -198,6 +205,7 @@ nav > button{
 
 button > 	p {
 	padding-top: 5px;
+	font-size: 1em;
 }
 
 button:nth-child(1) {
@@ -207,6 +215,10 @@ button:nth-child(1) {
 button:nth-child(2){
 	margin-right: 10px;
 }
+
+/* .user-login-container > button {
+	font-size: .7em;
+} */
 
 /* MAIN */
 
