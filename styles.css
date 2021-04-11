@@ -58,19 +58,29 @@ button {
 	display: flex;
 }
 
-/* button > 	p {
-	padding-top: 5px;
-} */
-
 h1 {
 	font: 1.2em "Gill Sans", sans-serif;
 	color: #f2f7f2ff;
 	font-weight: lighter;
 }
 
+h2{
+	font: 1.8em "Gill Sans", sans-serif;
+	color: #31231eff;
+}
+
 span {
 	font-family: 'Mr De Haviland', cursive;
 	font-size: 3em;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	background-color: #31231eff;
+	width: 40vw;
+	height: 70vh;
+	margin-bottom: 10px;
 }
 
 /* HEADER */
@@ -79,8 +89,25 @@ span {
 	margin-top: 20px;
 }
 
-.heart-btn:hover {
-	color: white;
+.heart-btn img:nth-child(2) {
+  display: none;
+}
+.heart-btn:hover img:nth-child(2) {
+  display: block;
+}
+.heart-btn:hover img:nth-child(1) {
+  display: none;
+}
+
+button:hover {
+	color: #f2ecbaff;
+}
+
+/* ARTICLE TOP */
+.article-top {
+	background-repeat: no-repeat;
+	background-size: 100vw 50vh;
+	height: 25vh;
 }
 
 /* MOBILE VIEW */
@@ -90,10 +117,13 @@ h1 {
 	margin-right: 13px;
 }
 
+h2{
+	margin: 10px 0px 5px 10px;
+}
+
 img {
 	width: 20px;
 }
-
 
 nav > button{
 	font-size: .7em;
@@ -112,4 +142,22 @@ button:nth-child(2){
 	margin-right: 10px;
 }
 
+/* MAIN */
+
+.article-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+article {
+	height: 70vh;
+	width: 80vw;
+}
+
+.article-top {
+	background-size: 100vw 50vh;
+	height: 25vh;
+}
 }
