@@ -109,6 +109,8 @@ button:hover {
 	display: flex;
 	justify-content: space-between;
 	background-repeat: no-repeat;
+	font: 1.2em "Gill Sans", sans-serif;
+	color: #31231eff;
 	background-size: 100vw 50vh;
 	height: 25vh;
 }
@@ -119,6 +121,7 @@ button:hover {
 	flex-direction: column;
 	height: 50vh;
 	font: 1.2em "Gill Sans", sans-serif;
+	padding: 10px;
 	/* margin-bottom: 20px; */
 }
 
@@ -132,6 +135,7 @@ button:hover {
 	text-decoration: none;
 	padding-left: 5px;
 	padding-top: 5px;
+	margin-bottom: 5px;
 	width: auto;
 	height: 40px;
 }
@@ -141,8 +145,11 @@ button:hover {
 }
 
 .txt-2 {
-	color: #f2f7f2ff;
 	text-transform: uppercase;
+}
+
+.num {
+	font-size: 2em;
 }
 
 /* MOBILE VIEW */
@@ -205,11 +212,16 @@ article {
 }
 
 .group-styler {
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 }
 
 .website {
 	height: 60px;
-	font-size: 1.2em;
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+.like-heart {
+	width: 60%;
 }
 }
