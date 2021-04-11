@@ -167,6 +167,7 @@ button:hover {
 }
 
 .group-styler {
+	/* padding: 10px; */
 	margin-bottom: 10px;
 }
 
@@ -175,8 +176,9 @@ button:hover {
 	color: #7e846bff;
 	text-decoration: none;
 	padding-left: 5px;
-	padding-top: 5px;
+	padding-top: 10px;
 	margin-bottom: 5px;
+	font-size: .8em;
 	width: auto;
 	height: 53px;
 }
@@ -187,10 +189,19 @@ button:hover {
 
 .txt-2 {
 	text-transform: uppercase;
+	font-size: .7em;
+}
+
+.date {
+	font-size: .7em;
 }
 
 .num {
-	font-size: 30px;;
+	font-size: 30px;
+}
+
+.likes{
+	padding: 10px;
 }
 
 .like-heart {
@@ -303,5 +314,9 @@ article {
 
 .num {
 	font-size: 2em;
+}
+
+.date {
+	font-size: .9em;
 }
 }
