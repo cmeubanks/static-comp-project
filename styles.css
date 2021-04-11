@@ -49,17 +49,33 @@ header {
 nav {
   display: flex;
   align-items: flex-end;
-	padding-bottom: 20px;
+	padding-bottom: 42px;
+	padding-left: 20px;
 }
 
 button {
 	background: none;
 	border: none;
 	display: flex;
+	/* font-size: 1.2em; */
+}
+
+nav > button {
+	font-size: 1.2em;
+	margin-right: 20px;
+}
+
+button > 	p {
+	padding-top: 7px
+}
+
+img {
+	width: 30px;
+	padding-right: 15px;
 }
 
 h1 {
-	font: 1.2em "Gill Sans", sans-serif;
+	font: 2.5em "Gill Sans", sans-serif;
 	color: #f2f7f2ff;
 	font-weight: lighter;
 }
@@ -156,6 +172,7 @@ button:hover {
 @media screen and (max-width: 800px){
 
 h1 {
+	font-size: 1.2em;
 	margin-right: 13px;
 }
 
@@ -165,11 +182,18 @@ h2{
 
 img {
 	width: 20px;
+	padding-right: 0px;
+}
+
+nav {
+	padding-left: 2px;
+	padding-bottom: 20px;
 }
 
 nav > button{
 	font-size: .7em;
 	width: 18vw;
+	margin-right: 0px;
 }
 
 button > 	p {
