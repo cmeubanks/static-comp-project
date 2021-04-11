@@ -44,6 +44,7 @@ header {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+	height: 25vh;
 }
 
 nav {
@@ -102,8 +103,9 @@ article {
 	display: flex;
 	flex-direction: column;
 	background-color: #31231eff;
-	width: 24vw;
+	width: 21vw;
 	/* height: 50vh; */
+	margin-right: 10px;
 	margin-bottom: 10px;
 	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.4);
 }
@@ -200,6 +202,10 @@ h2{
 	margin: 12px 0px 7px 19px;
 }
 
+header {
+	height: 15vh;
+}
+
 img {
 	width: 20px;
 	padding-right: 0px;
@@ -243,11 +249,13 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 90vw;
+	/* margin-right: */
+	width: 95vw;
 }
 
 
 article {
+	margin-right: 0;
 	height: 70vh;
 	width: 80vw;
 }
