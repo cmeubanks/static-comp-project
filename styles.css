@@ -81,6 +81,7 @@ article {
 	width: 20vw;
 	height: 50vh;
 	margin-bottom: 10px;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.4);
 }
 
 /* HEADER */
