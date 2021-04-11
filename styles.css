@@ -20,4 +20,91 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/*
+$champagne-pink: #fce2d9ff;
+$mint-cream: #f2f7f2ff;
+$bistre: #31231eff;
+$smoky-black: #0c0908ff;
+$artichoke: #7e846bff;
+$pale-spring-bud: #f2ecbaff;
+*/
+
 /* HTML ELEMENT TAGS */
+html {
+  width: 100vw;
+}
+
+body {
+  background-color: #fce2d9ff;
+	color: #f2f7f2ff;
+}
+
+header {
+  background-color: #7e846bff;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+	padding-bottom: 20px;
+}
+
+button {
+	background: none;
+	border: none;
+	display: flex;
+}
+
+button > 	p {
+	padding-top: 5px;
+}
+
+h1 {
+	font: 1.2em "Gill Sans", sans-serif;
+	color: #f2f7f2ff;
+	font-weight: lighter;
+}
+
+span {
+	font-family: 'Mr De Haviland', cursive;
+	font-size: 3em;
+}
+
+/* HEADER */
+.user-login-container {
+	display: flex;
+	margin-top: 20px;
+}
+
+/* .heart-img {
+	padding-top: 5px;
+	padding-bottom: 0;
+} */
+
+
+
+/* MOBILE VIEW */
+@media screen and (max-width: 800px){
+
+h1 {
+	margin-right: 13px;
+}
+
+img {
+	width: 20px;
+}
+
+
+nav > button{
+	font-size: .7em;
+	width: 18vw;
+}
+
+button:nth-child(1) {
+	width: 25vw;
+}
+
+}
