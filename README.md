@@ -18,11 +18,15 @@ Github Pages Link: https://cmeubanks.github.io/static-comp-project/
 ## Images
 
 Desktop View:
-<img src="assets/desktop-view.png" width="300" >
+
+<img src="assets/desktop-view.png" width="650" >
 
 
 Mobile View:
-![](assets/mobile-view.png)
+
+<img src="assets/mobile-view.png" width="650" >
 
 Comp style to match:
-![](assets/comp.png)
+
+<img src="assets/comp.png" width="650" >
+
