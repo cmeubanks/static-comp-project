@@ -78,8 +78,8 @@ article {
 	display: flex;
 	flex-direction: column;
 	background-color: #31231eff;
-	width: 40vw;
-	height: 70vh;
+	width: 20vw;
+	height: 50vh;
 	margin-bottom: 10px;
 }
 
@@ -110,6 +110,27 @@ button:hover {
 	background-repeat: no-repeat;
 	background-size: 100vw 50vh;
 	height: 25vh;
+}
+
+.article-bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-around;
+	height: 50vh;
+}
+
+.group-styler {
+	margin-bottom: 15px;
+}
+
+.txt-1 {
+	color: #f2f7f2ff
+}
+
+.txt-2 {
+	color: #f2f7f2ff;
+	text-transform: uppercase;
 }
 
 /* MOBILE VIEW */
@@ -161,5 +182,9 @@ article {
 .article-top {
 	background-size: 80vw 28vh;
 	height: 28vh;
+}
+
+.txt-1 {
+	font-size: 1.5em;
 }
 }
