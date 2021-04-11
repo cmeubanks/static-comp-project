@@ -1,8 +1,8 @@
 ### Description
-Welcome to the onlyPans static comp! A comp recreation challenge, where I was tasked to re-create the layout of a specific comp (with some creative license liberties).
+Welcome to the onlyPans static comp! A comp challenge, where I was tasked to re-create the layout of a specific comp (with some creative license liberties).
 
 ### How it Works
-Visit the github pages deployed site to view the desktop and mobile versions of this Comp
+Visit the github pages deployed site to view the desktop and mobile versions of this comp
 
 ### Technologies Used
 - JavaScript
