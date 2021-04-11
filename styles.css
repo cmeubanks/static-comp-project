@@ -58,9 +58,9 @@ button {
 	display: flex;
 }
 
-button > 	p {
+/* button > 	p {
 	padding-top: 5px;
-}
+} */
 
 h1 {
 	font: 1.2em "Gill Sans", sans-serif;
@@ -79,12 +79,9 @@ span {
 	margin-top: 20px;
 }
 
-/* .heart-img {
-	padding-top: 5px;
-	padding-bottom: 0;
-} */
-
-
+.heart-btn:hover {
+	color: white;
+}
 
 /* MOBILE VIEW */
 @media screen and (max-width: 800px){
@@ -103,8 +100,16 @@ nav > button{
 	width: 18vw;
 }
 
+button > 	p {
+	padding-top: 5px;
+}
+
 button:nth-child(1) {
-	width: 25vw;
+	width: 23vw;
+}
+
+button:nth-child(2){
+	margin-right: 10px;
 }
 
 }
